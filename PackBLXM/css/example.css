@@ -1,4 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+@font-face {
+    font-family: 'Pixelify Sans';
+    font-style: normal;
+  
+    font-display: swap;
+    src: url('https://assets-delta-eight.vercel.app/Play-Bold.ttf');
+  }
     @font-face {
         font-family: 'discord';
         font-style: normal;
@@ -7,15 +14,40 @@
         }
         
 .noa-canvas{
-    width:75% !important;
-    height:75% !important;
-    transform:scale(1.25);
-    filter:brightness(105%) contrast(105%);
+    width:65% !important;
+    height:65% !important;
+    transform:scale(1.35);
+
+    -webkit-filter:brightness(95%) contrast(105%);
+
+            filter:brightness(95%) contrast(105%);
+}
+.WholeAppWrapper{
+    font-family: "Pixelify Sans", sans-serif !important;
+ 
+  font-style: normal;
+}
+#root{
+    font-family: "Pixelify Sans", sans-serif;
+ 
+  font-style: normal;
+}
+.AvailableGameText{
+    border-radius:0px !important;
+    color:rgb(188, 130, 242);
+    -webkit-text-stroke-color:white;
+    text-stroke-color:white;
 }
 .GameAdsBanner{
     opacity:0!important;
 }
 .SettingsMenuRight,.SettingsMenuLeft,.Inventory,.InviteLinkBox,.CharCustomisation,.TopRightElements,.BottomLeftElements,.SettingsMenuRight,.SettingsMenu{
+    opacity:0.95 !important;
+}
+.CharCustomisation{
+    opacity:0.95!important;
+}
+.Inventory{
     opacity:0.95 !important;
 }
 .InventoryAdOuter{
@@ -27,21 +59,30 @@
 .HomeBannerDiv{
     opacity:0!important;
 }
+.ShopOnBoughtInfo{
+    border-radius:10px;
+}
 .CrossHair{
     opacity:0.75 !important;
     border-style:outset;
-    border-width:4px !important;
+    font-size:0px;
+    border-width:3.5px !important;
     border-color:rgb(252, 224, 139);
-    border-radius:100px;
+    border-radius:1000px;
+    width:15px;
+    height:15px;
+    background:url('https://assets-delta-eight.vercel.app/Cropped_CrossHair.png') no-repeat fixed left top !important;
 }
-.TopRightElements{
+
+.TopRightElements,HeaderRight{
     top:0.5rem !important;
     right:0.5rem !important;
 }
 .GameBadgeMain{
     border-radius:10px !important;
+    
 }
-.FullyFancyText{
+.Title{
     font-family: "Kalam", cursive !important;
 }
 .item{
@@ -56,6 +97,26 @@
 .GameBadgeBottom{
     display:none !important;
 }
+.GunCrosshairOverlayWrapper,.GunCrosshairOverlay{
+    opacity:0.5 !important;
+}
+
+.GunCrosshairOverlayWrapper .GunCrosshairOverlayDot {
+    
+    border: 2px solid rgba(196, 53, 53, 0.65) !important;
+    height:7.5px !important;
+    width:7.5px !important;
+  
+}
+.AvailableGame{
+    border-style:solid;
+    border-color:rgb(43, 226, 141);
+    border-width:3.5px;
+    -webkit-box-shadow:none;
+    -moz-box-shadow: none;
+    box-shadow:none !important;
+    
+}
 .AvailableGameTextWrapperBackground{
     background-color: transparent !important;
 }
@@ -63,25 +124,7 @@
     background-color: transparent!important;
 }
 
-.UpdateLogPopupTitle {
-    font-family:"discord", sans-serif !important;
-    visibility: hidden !important;
-    position: relative !important;
-}
-.UpdateLogPopupTitle:after {
-    visibility: visible !important;
-    position: absolute !important;
-    top: 0 !important;
-    left: 0 !important;
-    content: "#dev-log" !important;
-}
+
 .HomeBackground{
     background-image:url('https://assets-delta-eight.vercel.app/41524.jpg') !important;
 }
-/*©Copyright 2024-2026
-Some Rights Reserved
-CSS and models with some textures by Blxm
-other textures 'Bare_Bones' by A_I_X
-Permission is not granted to change or use css and model textures
-Skybox by babylonJS not copyright
-*/
