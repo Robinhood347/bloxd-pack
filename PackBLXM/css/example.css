@@ -1,0 +1,130 @@
+
+@font-face {
+    font-family: 'Pixelify Sans';
+    font-style: normal;
+  
+    font-display: swap;
+    src: url('https://assets-delta-eight.vercel.app/Play-Bold.ttf');
+  }
+    @font-face {
+        font-family: 'discord';
+        font-style: normal;
+        font-weight: normal;
+        src: url('https://assets-delta-eight.vercel.app/gg%20sans%20Semibold.woff') format('woff');
+        }
+        
+.noa-canvas{
+    width:65% !important;
+    height:65% !important;
+    transform:scale(1.35);
+
+    -webkit-filter:brightness(95%) contrast(105%);
+
+            filter:brightness(95%) contrast(105%);
+}
+.WholeAppWrapper{
+    font-family: "Pixelify Sans", sans-serif !important;
+ 
+  font-style: normal;
+}
+#root{
+    font-family: "Pixelify Sans", sans-serif;
+ 
+  font-style: normal;
+}
+.AvailableGameText{
+    border-radius:0px !important;
+    color:rgb(188, 130, 242);
+    -webkit-text-stroke-color:white;
+    text-stroke-color:white;
+}
+.GameAdsBanner{
+    opacity:0!important;
+}
+.SettingsMenuRight,.SettingsMenuLeft,.Inventory,.InviteLinkBox,.CharCustomisation,.TopRightElements,.BottomLeftElements,.SettingsMenuRight,.SettingsMenu{
+    opacity:0.95 !important;
+}
+.CharCustomisation{
+    opacity:0.95!important;
+}
+.Inventory{
+    opacity:0.95 !important;
+}
+.InventoryAdOuter{
+    opacity:0 !important;
+}
+.SettingsAdOuter{
+    opacity:0!important;
+}
+.HomeBannerDiv{
+    opacity:0!important;
+}
+.ShopOnBoughtInfo{
+    border-radius:10px;
+}
+.CrossHair{
+    opacity:0.75 !important;
+    border-style:outset;
+    font-size:0px;
+    border-width:3.5px !important;
+    border-color:rgb(252, 224, 139);
+    border-radius:1000px;
+    width:15px;
+    height:15px;
+    background:url('https://assets-delta-eight.vercel.app/Cropped_CrossHair.png') no-repeat fixed left top !important;
+}
+
+.TopRightElements,HeaderRight{
+    top:0.5rem !important;
+    right:0.5rem !important;
+}
+.GameBadgeMain{
+    border-radius:10px !important;
+    
+}
+.Title{
+    font-family: "Kalam", cursive !important;
+}
+.item{
+    transform:scale(0.95);
+    background-color:mediumslateblue!important;
+    border-color:mediumaquamarine!important;
+    opacity:0.75!important;
+}
+.SelectedItem{
+    background-color:rgb(35, 35, 199) !important;
+}
+.GameBadgeBottom{
+    display:none !important;
+}
+.GunCrosshairOverlayWrapper,.GunCrosshairOverlay{
+    opacity:0.5 !important;
+}
+
+.GunCrosshairOverlayWrapper .GunCrosshairOverlayDot {
+    
+    border: 2px solid rgba(196, 53, 53, 0.65) !important;
+    height:7.5px !important;
+    width:7.5px !important;
+  
+}
+.AvailableGame{
+    border-style:solid;
+    border-color:rgb(43, 226, 141);
+    border-width:3.5px;
+    -webkit-box-shadow:none;
+    -moz-box-shadow: none;
+    box-shadow:none !important;
+    
+}
+.AvailableGameTextWrapperBackground{
+    background-color: transparent !important;
+}
+.HeaderRightBackground{
+    background-color: transparent!important;
+}
+
+
+.HomeBackground{
+    background-image:url('https://assets-delta-eight.vercel.app/41524.jpg') !important;
+}
